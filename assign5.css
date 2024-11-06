@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(241, 166, 67);
+  padding: 100px 0px;
+}
+.section1 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 20px 40px;
+  /* row-gap: 10px; */
+  background-color: white;
+}
+.sec1images {
+  height: 300px;
+  width: 100%;
+  background-image: url(image/Julne-blog-2017.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  border-radius: 10px;
+  /* background-color: red; */
+}
+.sec1text1 {
+  margin: 20px 0px 20px 0px;
+  padding: 20px 0px;
+}
+.sec1text1 h1 {
+  margin: 20px 0px 20px 0px;
+  font-size: 40px;
+}
+.sec1text1 p {
+  font-size: 20px;
+}
+.sec1text2 {
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+  background-color: bisque;
+}
+.sec1text2 h3 {
+  font-size: 25px;
+  color: red;
+}
+.sec1text2 ul,
+li {
+  padding: 5px 40px;
+}
+.sec1_text {
+  margin: 20px 0px 20px 0px;
+}
+.sec1_text h2 {
+  margin: 20px 0px 20px 0px;
+  color: red;
+}
+.sec1_text ul,
+li {
+  padding: 5px 40px;
+  font-size: 20px;
+}
+.sec1_text2 {
+  margin: 20px 0px 20px 0px;
+}
+.sec1_text2 h2 {
+  margin: 20px 0px 20px 0px;
+  color: red;
+}
+.sec1_text2 ol,
+li {
+  padding: 5px 40px;
+  font-size: 20px;
+}
+.sec3 {
+  margin: 20px 0px 20px 0px;
+}
+.sec3 h2 {
+  margin: 20px 0px 20px 0px;
+  color: red;
+}
+.sec3 p {
+  font-size: 20px;
+}
+table {
+  width: 100%;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+ td {
+  border-bottom: 1px solid black;
+  padding: 10px 40px;
+  text-align: left;
+  /* background-color: red; */
+}
+
